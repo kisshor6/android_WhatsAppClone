@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">my chat</string>
+
+    <string name="add_contact">create new contact</string>
+    <string name="contact_name">Enter contact name</string>
+    <string name="contact_num">Enter contact number</string>
+    <string name="otpNum_Hint">Enter OTP number</string>
+
+    <string name="verify_msg">Verify your phone number</string>
+    <string name="verifyNum_msg">Verify number</string>
+    <string name="verify2_msg">we will send OTP your number to verify</string>
+    <string name="otpHead_text">Enter OTP to verify your number </string>
+    <string name="verify_Title">Verify OTP</string>
+    <string name="number_hint">Type your phone number</string>
+    <string name="profile_headline">setUp your profile and Images</string>
+    <string name="name_text">Enter your Name</string>
+    <string name="cont">continue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chats">Chats fragment</string>
+    <string name="calls">Calls fragment</string>
+    <string name="status">Status fragment</string>
+</resources>

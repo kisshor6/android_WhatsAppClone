@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ActivityOTP">
+
+
+    <ImageView
+        android:id="@+id/header_img"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:src="@drawable/otp"/>
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_img"
+        android:layout_centerHorizontal="true"
+        android:text="@string/verify_Title"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="27dp"/>
+
+    <TextView
+        android:id="@+id/header_desc"
+        android:layout_below="@id/header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otpHead_text"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:id="@+id/otpNumber"
+        android:layout_below="@id/header_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:inputType="number"
+        android:padding="15dp"
+        android:hint="@string/otpNum_Hint"
+        android:background="@drawable/editext_background"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/verifyOTP"
+        android:layout_below="@id/otpNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/verify_Title"
+        android:textColor="@color/white"
+        android:background="@drawable/button_backgrond"/>
+
+    <ProgressBar
+        android:id="@+id/progresBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_desc"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

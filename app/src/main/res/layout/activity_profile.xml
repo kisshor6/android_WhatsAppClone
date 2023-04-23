@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/profile_img"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/text_headline"
+        android:layout_below="@id/ProfileImage"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Profile Info"
+        android:textSize="28sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_headline"
+        android:layout_centerHorizontal="true"
+        android:text="@string/profile_headline"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_below="@id/text_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:padding="15dp"
+        android:hint="@string/name_text"
+        android:background="@drawable/editext_background"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/setupProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/cont"
+        android:textColor="@color/white"
+        android:background="@drawable/button_backgrond"/>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_bottom"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514602385788",
+    "project_id": "april14-phoneotp",
+    "storage_bucket": "april14-phoneotp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514602385788:android:9d1ddb3e030a77331d24f9",
+        "android_client_info": {
+          "package_name": "com.example.phoneotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514602385788-l3mnesj6up0a3odn4kghdr9t4v1p6jqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoneotp",
+            "certificate_hash": "f0d2de2671c9d70fc508ba93501a6fd5325cca05"
+          }
+        },
+        {
+          "client_id": "514602385788-ugarpoio3t8jia9ceibsi8lf1i53rlc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJK6R1yEsJwiQ4Sztwb0LozY377w49azs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514602385788-ugarpoio3t8jia9ceibsi8lf1i53rlc3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
